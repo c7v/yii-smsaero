@@ -1,0 +1,22 @@
+{
+    "name": "c7v/yii-smsaero",
+    "description": "Пакет позволяющий работать с REST API SMS-сервиса «SMS Aero»",
+    "type": "package",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Артём Соколовский",
+            "email": "artem@sokolovsky.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2-httpclient": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "c7v\\yii_smsaero\\": "src"
+        }
+    }
+}
